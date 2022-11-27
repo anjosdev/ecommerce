@@ -1,9 +1,6 @@
-const http = require('http');
-const routes = require('./router')
+const express = require('express');
 
-const server = http.createServer(routes.routes);
-console.log(routes.text);
+const app = express();
 
-server.listen(3000, () => {
-    console.log("server listening at port 3000")
-});
+app.listen(3000, () => {
+    console.log("server started at port 3000")
