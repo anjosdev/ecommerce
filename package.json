@@ -1,0 +1,23 @@
+{
+  "name": "ctc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjosdev/ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjosdev/ecommerce/issues"
+  },
+  "homepage": "https://github.com/anjosdev/ecommerce#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
