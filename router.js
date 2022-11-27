@@ -45,6 +45,7 @@ function setHomePage(req, res) {
     </div>
     <div>
     <input type="submit" value="send"/>
+    </div>
     </body>
     </html>
     `)
