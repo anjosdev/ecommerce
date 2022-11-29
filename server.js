@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Routes
 app.use(homeRoutes);
-app.use('/users/', adminRoutes);
+app.use('/products/', adminRoutes);
 app.use((req, res) => {
     const viewsData = {
         pageTitle: 'Page Not Found'
